@@ -1,0 +1,169 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('icomoon.eot?pp9djg');
+  src:  url('icomoon.eot?pp9djg#iefix') format('embedded-opentype'),
+    url('icomoon.ttf?pp9djg') format('truetype'),
+    url('icomoon.woff?pp9djg') format('woff'),
+    url('icomoon.svg?pp9djg#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-brand:before {
+  content: "\e900";
+}
+.icon-brand2:before {
+  content: "\e901";
+  color: #0080ff;
+}
+.icon-brand3:before {
+  content: "\e902";
+  color: #7289da;
+}
+.icon-brand4:before {
+  content: "\e903";
+  color: #f60;
+}
+.icon-brand5:before {
+  content: "\e904";
+  color: #5ab552;
+}
+.icon-brand6:before {
+  content: "\e905";
+  color: #0063dc;
+}
+.icon-brand7:before {
+  content: "\e906";
+  color: #e12828;
+}
+.icon-brand8:before {
+  content: "\e907";
+  color: #ffc107;
+}
+.icon-brand9:before {
+  content: "\e908";
+  color: #005ea5;
+}
+.icon-brand10:before {
+  content: "\e909";
+  color: #630;
+}
+.icon-brand11:before {
+  content: "\e90a";
+  color: #00a4de;
+}
+.icon-brand12:before {
+  content: "\e90b";
+  color: #e34f26;
+}
+.icon-brand13:before {
+  content: "\e90c";
+  color: #0071ce;
+}
+.icon-brand14:before {
+  content: "\e90d";
+  color: #f7df1e;
+}
+.icon-brand15:before {
+  content: "\e90e";
+  color: #d24939;
+}
+.icon-brand16:before {
+  content: "\e90f";
+  color: #eb001b;
+}
+.icon-brand17:before {
+  content: "\e910";
+}
+.icon-brand18:before {
+  content: "\e911";
+  color: #f4731c;
+}
+.icon-brand19:before {
+  content: "\e912";
+  color: #c7053d;
+}
+.icon-brand20:before {
+  content: "\e913";
+  color: #8ca1af;
+}
+.icon-brand21:before {
+  content: "\e914";
+  color: #fb4226;
+}
+.icon-brand22:before {
+  content: "\e915";
+  color: #e7282d;
+}
+.icon-brand23:before {
+  content: "\e916";
+}
+.icon-brand24:before {
+  content: "\e917";
+  color: #2eace3;
+}
+.icon-brand25:before {
+  content: "\e918";
+  color: #2ca5e0;
+}
+.icon-brand26:before {
+  content: "\e919";
+  color: #6441a5;
+}
+.icon-brand27:before {
+  content: "\e91a";
+  color: #dd4814;
+}
+.icon-brand28:before {
+  content: "\e91b";
+  color: #f88d2d;
+}
+.icon-brand29:before {
+  content: "\e91c";
+  color: #7c529e;
+}
+.icon-brand30:before {
+  content: "\e91d";
+  color: #6383a8;
+}
+.icon-brand31:before {
+  content: "\e91e";
+  color: #0078d6;
+}
+.icon-brand32:before {
+  content: "\e91f";
+  color: #107c10;
+}
+.icon-brand33:before {
+  content: "\e920";
+  color: #c41200;
+}
+.icon-brand34:before {
+  content: "\e921";
+  color: #ff4a00;
+}
+.icon-brand35:before {
+  content: "\e922";
+}
+.icon-brand36:before {
+  content: "\e923";
+}
+.icon-brand37:before {
+  content: "\e924";
+  color: #0074e4;
+}

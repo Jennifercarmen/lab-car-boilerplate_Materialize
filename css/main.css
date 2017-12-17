@@ -1,0 +1,48 @@
+/* Clases Especificas */
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+section:nth-child(odd) {
+    background-color: #f7b617;
+}
+
+form {
+    margin: 0px 10px 20px;
+}
+
+section {
+    color: white;
+}
+
+
+/* Navigation */
+
+.nav-wrapper {
+    background-color: #f8f8f8;
+}
+
+nav ul a {
+    color: #555;
+}
+
+.button-collapse:focus {
+    background-color: #ddd;
+}
+
+.button-collapse {
+    border-color: #ddd;
+    color: #888;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.button-collapse:hover {
+    background-color: #ddd;
+}
+
+.logo {
+    width: 60%;
+    margin-left: 20px;
+}
