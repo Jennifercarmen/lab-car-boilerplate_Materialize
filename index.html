@@ -38,8 +38,7 @@
                             Conduce</a>
                     </li>
                     <li>
-                        <a href="#" data-toggle="modal" data-target=".modal-iniciosesion">
-                            Inicia Sesión</a>
+                        <a class="modal-trigger" href="#iniciosesion"> Inicia Sesión</a>
                     </li>
                 </ul>
                 <ul id="slide-out" class="side-nav">
@@ -80,7 +79,7 @@
                 </div>
             </div>
         </div>
-    <div class="center-y view-desktop">
+        <div class="center-y view-desktop">
             <div class="row">
                 <div class="col s7  offset-s5  col m5 offset-m7  col xl4 offset-xl8 right boxcolor">
                     <div class="box_app">
@@ -93,13 +92,10 @@
                                 <img class="logoblanco" src="assets/images/logoBlanco.png" alt="logo-blanco">
                             </figure>
                         </div>
-                        <button type="button" class="btn btn-default" data-toggle="modal" data-target=".modal-registrate">
-                            <span class="textuppercase"> Regístrate</span>
-                        </button>
+                        <a class="btn btn-default waves-effect waves-light btn modal-trigger" href="#modal-registrate">Regístrate</a>
                         <hr>
-                        <button type="button" class="btn btn-default" data-toggle="modal" data-target=".modal-conductor">
-                            Conviértete en conductor
-                        </button>
+                        <a class="btn btn-default waves-effect waves-light btn modal-trigger" href="#modal-conductor"> Conviértete en conductor</a>
+
                     </div>
                 </div>
             </div>
@@ -123,14 +119,14 @@
                 </div>
             </div>
         </div>
-		        <div class="view-desktop">
+        <div class="view-desktop">
             <div class="row">
                 <div class="col m12 col l10 col xl10 left">
                     <div class="box_iphone">
 
                         <div class="col m6 col l7 col xl6">
                             <div class="cel">
-                                    <img class="responsive-img" src="assets/images/iPhone6Plus.png" alt="iphone">
+                                <img class="responsive-img" src="assets/images/iPhone6Plus.png" alt="iphone">
                             </div>
                         </div>
                         <div class=" col m6 col l5  col xl4">
@@ -163,7 +159,7 @@
                 </div>
             </div>
         </div>
-            <div class="view-desktop">
+        <div class="view-desktop">
             <div class="row">
                 <div class="col m5 offset-m7  col l4 offset-l8  col xl3 offset-xl9 box_sectDrive  right">
                     <div class="box_registro">
@@ -179,7 +175,7 @@
                 </div>
             </div>
         </div>
-	</section>
+    </section>
 
     <section>
         <div class="container">
@@ -196,7 +192,7 @@
                                 </figure>
                                 <input class="col s9 input-text  boxcolor" id="cinput" type="text" placeholder="Insurgentes Centro, Cuauhtémoc, Ciudad de México ">
                             </div>
-							                            <div class="view-desktop">
+                            <div class="view-desktop">
                                 <figure class="consultas-img col m1 col l1 col xl1">
                                     <img src="assets/images/shape.png" alt="circle">
                                 </figure>
@@ -211,13 +207,13 @@
                                 <input class="col s9 input-text  boxcolor" id="cinput" type="text" placeholder="Carolina, Ciudad de los Deportes, Ciudad de México">
 
                             </div>
-                               <div class="view-desktop">
+                            <div class="view-desktop">
                                 <figure class="col m1 col-md-1 col-lg-1 consultas-img">
                                     <img src="assets/images/shape2.png" alt="circle">
                                 </figure>
                                 <input class="col m9 col l9 col xl10 input-text boxcolor" type="text" id="cinput" placeholder="Ingrese su destino">
                             </div>
-						</div>
+                        </div>
                         <button type="button" class="btn btn-default center">¡Trazar Ruta!</button>
                     </div>
                 </div>
@@ -235,6 +231,126 @@
         </div>
     </section>
 
+
+
+    <!-- *********** Ventanas Modales ****** -->
+
+    <!-- Modal  InicioSesion-->
+    <div id="iniciosesion" class="modal modal-turquoise">
+        <div class="modal-content">
+            <figure class="img-user center">
+                <img class="responsive-img" src="assets/images/user.png">
+            </figure>
+            <hr>
+            <div class="form-login center">
+                <div class="row">
+                    <form class="col s12">
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix">account_circle</i>
+                                <input id="icon_prefix" type="text" class="validate">
+                                <label for="icon_prefix">Email</label>
+                            </div>
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix">lock</i>
+                                <input id="icon_pass" type="tel" class="validate">
+                                <label for="icon_pass">Password</label>
+                            </div>
+                            <button class="btn  btn-warning boxcolor center">LOGING</button>
+                            <p>Forgot Password?
+                                <span class="info">Click Here</span>
+                            </p>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal  Registrate-->
+    <div id="modal-registrate" class="modal white">
+        <div class="modal-content registro">
+            <form>
+                <button class="btn btn-black  btn-block">Ya tienes una cuenta?</button>
+                <p class="textuppercase textcenter"> o crea una cuenta nueva</p>
+                <div class="row">
+                    <div class="col s6 col l6 inputname">
+                        <input type="text" placeholder="Nombre">
+                    </div>
+                    <div class="col s6 col l6 inputlastname">
+                        <input type="text" placeholder="Apellido">
+                    </div>
+                </div>
+                <input type="text" placeholder="Correo Electrónico: ejemplo@correo.mx">
+                <input type="text" placeholder="Teléfono">
+                <input type="text" placeholder="Contraseña">
+                <input type="text" placeholder="Ciudad">
+                <input type="text" placeholder="(Opcional) Código de Invitación">
+                <button class="btn  btn-block">
+                    <span class="bold">Cómo te enteraste de nosotros?</span>
+                    <span class="glyphicon glyphicon-chevron-down"></span>
+                </button>
+                <button class="btn btn-send  btn-info btn-block">
+                    <span class="bold textuppercase">Enviar</span>
+                </button>
+            </form>
+        </div>
+
+    </div>
+
+    <!-- Modal  conductor-->
+    <div id="modal-conductor" class="modal white">
+        <div class="modal-content registro">
+
+            <form>
+                <div>
+                    <label>¿Tienes vehículo de 4 puertas?</label>
+                    <select>
+                        <option>si</option>
+                        <option>No</option>
+                    </select>
+                </div>
+                <div>
+                    <label>Marca</label>
+                    <select>
+                        <option selected>Elige la marca de tu vehiculo</option>
+                        <option>BMW</option>
+                        <option>FERRARI</option>
+                        <option>KIA</option>
+                    </select>
+                    <p class="text-marca">¿No ves tu vehículo en la lista?Envía un correo electrónico a</p>
+                    <p class="text-marca text-info bold">sociosmdv@uber.com</p>
+                </div>
+                <div>
+                    <label>Modelo: </label>
+                    <select>
+                        <option selected>Modelo1</option>
+                        <option>Modelo2</option>
+                    </select>
+                </div>
+                <div>
+                    <label>Año: </label>
+                    <select>
+                        <option selected>2017</option>
+                        <option>2016</option>
+                        <option>2015</option>
+                        <option>2014</option>
+                    </select>
+                </div>
+                <div>
+                    <label>Número de matrícula: </label>
+                    <input type="text" placeholder="Número de la matricula" />
+                    <p>La información de la matrícula ayuda a los clientes a identificar tu vehículo</p>
+                </div>
+
+                <button class="btn btn-info btn-block">
+                    <span class="bold textuppercase">Enviar</span>
+                </button>
+            </form>
+        </div>
+
+    </div>
     <footer>
         <div class="container">
             <div class="row">
@@ -246,7 +362,7 @@
                 </div>
             </div>
             <div class="row">
-			<div class="col m3 col l3 col xl3  view-desktop">
+                <div class="col m3 col l3 col xl3  view-desktop">
                     <ul class="icons">
                         <li>
                             <i class="fa fa-facebook" aria-hidden="true"></i>
@@ -277,7 +393,7 @@
 
                     </ul>
                 </div>
-				                <div class="col m3 col l3 col xl3 view-desktop">
+                <div class="col m3 col l3 col xl3 view-desktop">
                     <ul>
                         <li>Oportunidades</li>
                         <li>Nuestra historia</li>
