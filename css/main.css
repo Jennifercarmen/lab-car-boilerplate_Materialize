@@ -80,6 +80,7 @@ section {
 .btn-warning {
     display: block;
     margin-bottom: 12px;
+	background-color: #f7b617;
 }
 
 .boxcolor {
@@ -139,7 +140,7 @@ nav ul a {
 /* section 1 */
 
 section:first-of-type {
-    background-image: url(../assets/images/taxi.jpg);
+    background-image: url('../assets/images/taxi.jpg');
     background-repeat: no-repeat;
     background-position: center 93%;
     background-size: cover;
@@ -201,7 +202,7 @@ section:first-of-type {
 
 section:nth-of-type(3) {
     height: 430px;
-    background-image: url(../assets/images/conduce.jpg);
+    background-image: url('../assets/images/conduce.jpg');
     background-repeat: no-repeat;
     background-position: center right;
     background-size: cover;
