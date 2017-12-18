@@ -5,14 +5,27 @@
 ***
 ## **Objetivos**
 
-* En el siguiente reto se nos pide recrear la siguiente página web haciendo uso de Bootstrap para lo cuál  hemos aplicado la modalidad Mobile Firts.
-
+* En el siguiente reto se nos pide recrear la siguiente página web haciendo uso de Materialize
 
 ## **webSite**
 * Puede ver el Proyecto en vivo dando clic  [aquí](https://jennifercarmen.github.io/lab-car-boilerplate/)
- 
-*  ![Desktop](assets/docs/desktop_view.png)
-*  ![Movil](assets/docs/movil_view.png)
+## **Version Web**
+  ![Desktop](assets/docs/desktop_view.png)
+
+## **Version Movil**
+
+  ![Movil](assets/docs/movil_view.png)
+## **Ventanas modales**
+## **Inicio de Sesion**
+
+  ![Movil](assets/docs/modal-inicio-sesion.png)
+## **Modal de conductor**
+
+  ![Movil](assets/docs/modal-conductor.png)
+
+## **Modal Registrate**
+
+  ![Movil](assets/docs/modal-registrate.png)
 
 ***
 

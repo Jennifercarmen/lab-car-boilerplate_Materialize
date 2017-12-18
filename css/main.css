@@ -16,6 +16,90 @@ section {
     color: white;
 }
 
+.container .row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.row .col {
+    padding: 0px;
+}
+
+.row {
+    margin-bottom: 0;
+}
+
+
+/* Helpers */
+
+.center {
+    margin: 0 auto;
+}
+
+.inline {
+    display: inline;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+.left {
+    padding-left: 0px;
+}
+
+.center-y {
+    transform: translateY(70%);
+}
+
+.textuppercase {
+    text-transform: uppercase;
+}
+
+.view-mobile {
+    display: block;
+}
+
+.view-desktop {
+    display: none;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.btn-default {
+    display: block;
+    font-weight: 900;
+}
+
+.btn-warning {
+    display: block;
+    margin-bottom: 12px;
+}
+
+.boxcolor {
+    background-color: #f7b617;
+}
+
+.btn-block {
+    margin: 10px 0px;
+}
+
+.btn-default {
+    background-color: #fff;
+    border-color: #ccc;
+    color: #333;
+}
+
+figure {
+    margin: 0;
+}
+
 
 /* Navigation */
 
@@ -45,4 +129,183 @@ nav ul a {
 .logo {
     width: 60%;
     margin-left: 20px;
+}
+
+
+/* section 1 */
+
+section:first-of-type {
+    background-image: url(../assets/images/taxi.jpg);
+    background-repeat: no-repeat;
+    background-position: center 93%;
+    background-size: cover;
+    height: 540px;
+}
+
+.box_app {
+    padding: 28px 0px 40px 25px;
+    margin-left: 10px;
+}
+
+.box_app h2 {
+    line-height: 22px;
+    font-size: 25px;
+}
+
+.btn:hover,
+.btn-large:hover {
+    background-color: #ccc;
+}
+
+.logoblanco {
+    height: 16px;
+    margin-left: 20px;
+}
+
+.text-download {
+    font-size: 15px;
+}
+
+.btn_app {
+    margin-top: 2.7em;
+}
+
+
+/* ---------------
+	Section2
+	------------ */
+
+.iphone {
+    margin: 40px 0px 30px 0px;
+    border: 1px solid white;
+    padding: 40px;
+}
+
+.cel {
+    width: 85%;
+    transform: translateX(20%);
+}
+
+.text-iphone {
+    font-size: 18px;
+}
+
+
+/* ---------------
+	Section3
+	------------ */
+
+section:nth-of-type(3) {
+    height: 430px;
+    background-image: url(../assets/images/conduce.jpg);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+}
+
+.box_info {
+    margin: 90px 0px 0px 20px;
+    font-size: 18px;
+}
+
+.box_info button {
+    font-size: 15px;
+}
+
+.box_sectDrive {
+    background: rgba(0, 0, 0, 0.5);
+    height: 430px;
+}
+
+
+/* ---------------
+	Section4
+	------------ */
+
+.tarifas-Labcar {
+    padding: 50px 0px 0px;
+}
+
+.consultas {
+    margin-bottom: 30px;
+}
+
+.container-tarifas {
+    margin-bottom: 60px;
+}
+
+.input-text,
+.consultas-img {
+    display: inline;
+}
+
+#cinput {
+    margin-left: 25px;
+    font-size: 12px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    height: 20px;
+    margin-bottom: 0px;
+}
+
+#cinput:focus {
+    outline: none;
+}
+
+.input-text::-moz-placeholder {
+    color: white;
+}
+
+.input-text:-ms-input-placeholder {
+    color: white;
+}
+
+.input-text::-webkit-input-placeholder {
+    color: white;
+}
+
+.tarifas-Labcar p {
+    margin-bottom: 25px;
+}
+
+.tarifas-Labcar button {
+    padding: 6px 25px;
+}
+
+.container-mapa {
+    padding: 10px;
+    border: 1px solid white;
+    margin-bottom: 60px;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #2b2b2b;
+    padding-top: 47px;
+    padding-bottom: 47px;
+    color: white;
+}
+
+footer figure {
+    margin-bottom: 20px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 40px;
+    overflow: auto;
+}
+
+.icons li {
+    display: inline-block;
+    margin: 5px;
+}
+
+.images-footer img {
+    width: 90%;
 }
